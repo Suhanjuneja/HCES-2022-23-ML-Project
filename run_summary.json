@@ -1,0 +1,18 @@
+{
+  "observations": 36,
+  "features": [
+    "Rural_MPCE_Rs",
+    "Urban_MPCE_Rs",
+    "Urban_Rural_Gap_Percent"
+  ],
+  "selected_algorithm": "Agglomerative-Ward",
+  "selected_k": 3,
+  "selected_model_silhouette": 0.44516124414913705,
+  "pca_two_component_variance": 0.9973726184342486,
+  "stability_mean_pairwise_ARI": 0.9749405919205012,
+  "stability_sd_pairwise_ARI": 0.0937637193488393,
+  "ward_subsample_mean_pairwise_ARI": 0.5354874988140055,
+  "ward_subsample_sd_pairwise_ARI": 0.3088664565181558,
+  "random_seed_final_model": 42,
+  "interpretation": "Exploratory State/UT aggregate profiles; not household segments."
+}

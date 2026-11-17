@@ -1,0 +1,15 @@
+SOURCE AND DATA DICTIONARY
+
+Primary source: Ministry of Statistics and Programme Implementation (MoSPI), National Sample Survey Office, NSS Report No. 591, Survey on Household Consumption Expenditure: 2022-23, Summary Statement 1, printed page S1.
+Official PDF: https://mospi.gov.in/sites/default/files/publication_reports/Report_591_HCES_2022-23New.pdf
+
+The CSV contains the 36 State/UT rows from Statement 1, columns (2) Rural and (3) Urban under Average MPCE (Rs). It uses the ordinary published Average MPCE values, not the separate "with imputation" columns. The All-India row is excluded because it is not a State/UT observation. State names are normalized for readability (for example, Andaman & Nicobar Islands).
+
+Variables:
+State_UT: State/Union Territory name.
+Rural_MPCE_Rs: average monthly per-capita consumption expenditure, rural, rupees.
+Urban_MPCE_Rs: average monthly per-capita consumption expenditure, urban, rupees.
+Urban_Rural_Gap_Rs: Urban_MPCE_Rs minus Rural_MPCE_Rs, derived.
+Urban_Rural_Gap_Percent: 100 * (Urban_MPCE_Rs - Rural_MPCE_Rs) / Rural_MPCE_Rs, derived.
+
+The analysis unit is a State/UT aggregate, not a household. No microdata, household weights, food-group budget shares, nutrition variables, standard errors or household-level records are included. Values are nominal and are not spatially price-adjusted. Do not interpret clusters as household types or nutrition categories.

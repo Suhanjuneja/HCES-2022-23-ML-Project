@@ -1,0 +1,2 @@
+selected_k,runs,pairwise_comparisons,mean_pairwise_ARI,std_pairwise_ARI,min_pairwise_ARI,max_pairwise_ARI
+3,30,435,0.9749405919205012,0.0937637193488393,0.6241088788075179,1.0

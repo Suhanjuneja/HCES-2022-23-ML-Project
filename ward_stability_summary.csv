@@ -1,0 +1,2 @@
+algorithm,selected_k,subsample_fraction,runs,pairwise_comparisons,mean_pairwise_ARI_on_overlap,std_pairwise_ARI_on_overlap,min_pairwise_ARI_on_overlap,max_pairwise_ARI_on_overlap,interpretation
+Agglomerative-Ward,3,0.8,100,4950,0.5354874988140055,0.3088664565181558,-0.05459617011940954,1.0,Subsampling sensitivity diagnostic; not survey-design bootstrap or external validation.

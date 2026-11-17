@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this project, cite it as a student project and cite the official MoSPI HCES report listed in the README."
+title: "State and Rural-Urban Clustering of HCES 2022-23"
+authors:
+  - family-names: Juneja
+    given-names: Suhan
+version: 1.0.0
+date-released: 2026-11-17
